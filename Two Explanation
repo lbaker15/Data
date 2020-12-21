@@ -1,0 +1,21 @@
+Explanation
+For this problem I implemented a quick sort solution, using the mid value
+as a pivot.  I then carry out checks to determine whether the left side
+of the array is in order, if so the beginning value is smaller than the mid
+point therefore if the number is on the left side is will be inbetween these
+two values therefore the function needs to be called recursively with only
+the left side of the array.  Alternatively is the first condition is true
+but the number is on the right side then right side of the array needs
+to be passed into the next function.  If the left side of the array is not
+in order then this means the right side is sorted so I carry out the same checks
+to determine whether the number is in the left or right side of the mid point.
+As the beginning to mid point is not sorted in the second condition, I initally
+check whether the number is on the right side of the array.  By recursively
+calling the function with values either to the left or right of the pivot,
+I eventually end up with the mid point equalling the number being searched for,
+at this point the function returns.
+
+Time Complexity
+O(n log n)
+Space Complexity
+O(1)

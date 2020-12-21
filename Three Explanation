@@ -1,0 +1,9 @@
+Explanation
+For this problem I implemented a quicksort method to sort the order of the
+input list, the list is then looped and the largest possible answers given.
+
+Time Complexity
+O(n log n)
+
+Space Complexity
+O(log n)

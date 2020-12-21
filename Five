@@ -1,0 +1,11 @@
+Explanation
+To solve this problem I implemented a trie.  The word list is initially
+looped and characters entered into the trie.  When a prefix is given, all
+the children of the given prefix are returned which are then used to
+return their children aka the rest of the word.
+
+Space Complexity
+O(n * m) where n is the number of words and m is the length of the words.
+
+Time Complexity
+O(n * m) where n is the number of words and m is the length of the words.

@@ -1,0 +1,17 @@
+Explanation
+To solve this problem I have implemented a binary search method that
+begins by dividing the number by two and using this as an end point.
+The average between the start and end is then calculated and if this square
+of this number equals the inputted number then the sqr root has been
+found.
+
+Time Complexity
+The time complexity of this algorithim I believe is log(n).  Rather than
+testing whether every number below the inputted number is the square root,
+the number is halved and the mid point tested.  As with each iteration
+the start or end point is replaced by the previous iterations average,
+the range of the start and end point is halved each time.  This means
+the search space is cut in half with each iteration.
+
+Space Complexity
+Space complexity would be O(1).
