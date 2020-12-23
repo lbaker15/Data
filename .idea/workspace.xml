@@ -20,20 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="66300539-6b73-4b53-8933-3d4ff616336e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Six Explanation.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Five" beforeDir="false" afterPath="$PROJECT_DIR$/Five Explanation.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Four Explanation" beforeDir="false" afterPath="$PROJECT_DIR$/Four Explanation.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Four.py" beforeDir="false" afterPath="$PROJECT_DIR$/Four.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/One Explanation" beforeDir="false" afterPath="$PROJECT_DIR$/One Explanation.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/One.py" beforeDir="false" afterPath="$PROJECT_DIR$/One.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Seven Explanation" beforeDir="false" afterPath="$PROJECT_DIR$/Seven Explanation.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Seven.py" beforeDir="false" afterPath="$PROJECT_DIR$/Seven.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Three Explanation" beforeDir="false" afterPath="$PROJECT_DIR$/Three Explanation.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Three.py" beforeDir="false" afterPath="$PROJECT_DIR$/Three.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Two Explanation" beforeDir="false" afterPath="$PROJECT_DIR$/Two Explanation.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/two.py" beforeDir="false" afterPath="$PROJECT_DIR$/two.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
