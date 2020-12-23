@@ -1,8 +1,10 @@
 def sortNum(input_list):
+    if len(input_list) == 0:
+        return None
     end = len(input_list) - 1
     front = 0
     next = 0
-    while front < end:
+    while front < end + 1:
         curr = input_list[front]
         if curr == 0:
             #Reassign next along from first zero to 0 and current value to the value that existed at next before reassigning
@@ -19,18 +21,21 @@ def sortNum(input_list):
             end -= 1
         else:
             front += 1
-    print(input_list)
     return input_list
 
 def test_function(test_case):
     sorted_array = sortNum(test_case)
-    """
+    if sorted_array == None:
+        print("Please enter a longer list")
+        return
+    print(sorted_array)
     if sorted_array == sorted(test_case):
         print("Pass")
     else:
         print("Fail")
-    """
+
 
 test_function([0, 0, 2, 2, 2, 1, 1, 1, 2, 0, 2])
 test_function([2, 1, 2, 0, 0, 2, 1, 0, 1, 0, 0, 2, 2, 2, 1, 2, 0, 0, 0, 2, 1, 0, 2, 0, 0, 1])
 test_function([0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2])
+test_function([])

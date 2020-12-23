@@ -1,4 +1,6 @@
 def rearrange_digits(input_list):
+    if len(input_list) < 2:
+        return None
     quicksort(input_list)
     result = [''] * 2
     for i in range(len(input_list) - 1, -1, -1):
@@ -44,6 +46,9 @@ def sort_a_little_bit(items, begin_index, end_index):
 def test_function(test_case):
     output = rearrange_digits(test_case[0])
     solution = test_case[1]
+    if output == None:
+        print("Please enter a longer list")
+        return
     print(output, solution)
     if sum(output) == sum(solution):
         print("Pass")
@@ -54,3 +59,4 @@ def test_function(test_case):
 test_function([[1, 2, 3, 4, 5], [542, 31]])
 test_case = [[4, 6, 2, 5, 9, 8], [964, 852]]
 test_function(test_case)
+test_function([[1], [1]])

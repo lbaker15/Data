@@ -47,11 +47,6 @@ class Router(RouteTrie):
             return "No handler found"
         else:
             return found
-        # lookup path (by parts) and return the associated handler
-        # you can return None if it's not found or
-        # return the "not found" handler if you added one
-        # bonus points if a path works with and without a trailing slash
-        # e.g. /about and /about/ both return the /about handler
 
 # create the router and add a route
 router = Router("root handler")  # remove the 'not found handler' if you did not implement this
@@ -65,3 +60,9 @@ print(router.lookup("/home/about"))
 print(router.lookup("/home/about/"))  # should print 'about handler' or None if you did not handle trailing slashes
 print(router.lookup("/home/about/me"))
 """
+
+router = Router("other handler")  # remove the 'not found handler' if you did not implement this
+router.add_handler("/home/about", "about handler")  # add a route
+print(router.lookup("/"))
+print(router.lookup("/home"))
+print(router.lookup("/home/about"))
